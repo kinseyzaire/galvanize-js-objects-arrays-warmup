@@ -9,6 +9,6 @@ They've asked you to help them decipher the data, and answer some questions.
 ## Instructions
 
 1. Fork this repo
-1. `console.log` you solutions to each question
-1. Commit and push your changes and submit a pull request 
+1. `console.log` your solution to each question
+1. Commit and push your changes and submit a pull request
 1. Rejoice!
