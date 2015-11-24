@@ -35,19 +35,26 @@ console.log(people.joe.last_name);
 
 // What are the last names of all the people?
 // HINT: Iterate through the object
-
+for (var folks in people) {
+   console.log(people[folks]["last_name"]);
+}
 
 // What is the first genre that each person listed?
 // HINT: Iterate through theo object and console.log each person's first genre choice
-
+for (var folks in people) {
+   console.log(people[folks]["preferences"]["favorite_genres"][0]);
+}
 
 // What is the last name of the person sitting next to joe?
 // HINT: Start by finding who joe is sitting next to, then find that person in the object
+console.log(people[people.joe.sitting_next_to].last_name);
 
 
 // What meal is sue going to eat?
-
+console.log(people.sue.preferences.meal);
 
 // What was the date of the first correspondence with joe?
+console.log(people.joe.correspondence[0]["date"]);
 
 // What was the description of the last correspondence with sue?
+console.log(people.sue.correspondence[1]["description"]);
